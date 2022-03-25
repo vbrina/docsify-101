@@ -22,8 +22,15 @@
         loadNavbar: "./layouts/_navbar.md",
         name: "Design System Docs",
         repo: "",
+        search: {
+          placeholder: "Type to search a component",
+          noData: "Nothing was found :(",
+          hideOtherSidebarContent: true,
+          namespace: "website-1",
+        },
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   </body>
 </html>
